@@ -3,5 +3,5 @@ import eslintPlugin from 'vite-plugin-eslint'
 import StylelintPlugin from 'vite-plugin-stylelint'
 
 export default defineConfig({
-  plugins: [eslintPlugin(), StylelintPlugin()]
+  plugins: [eslintPlugin(), StylelintPlugin({ allowEmptyInput: true })]
 })
